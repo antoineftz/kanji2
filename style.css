@@ -1,0 +1,166 @@
+  @font-face {
+    font-family: 'balonxb';
+    src: local('balonxb'), url(fonts/balonxb.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'kaiu';
+    src: local(kaiu), url(fonts/kaiu.ttf) format('truetype');
+  }
+  
+  * {
+    font-family: 'balonxb';
+  }
+
+   /* Container for the first row */
+  .kanji-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+  }
+  
+  .kanji-container > div {
+    background-color: rgb(255, 255, 255) ;
+    height: 283px;
+    width: 398px;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: rgb(32, 156, 119);
+  }
+
+   /* KANJI FLASHCARD title*/
+  .app-title {
+    font-size: 22pt;
+    color:rgb(32, 156, 119);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:default;
+  }
+  
+   /* Kanji card cell*/
+  .kanji-card {
+    font-family: 'kaiu';
+    font-size: 34pt;
+    color: rgb(32,156,119);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+  }
+
+   /* Kanji lists numbers*/
+  .kanji-list {
+    font-size: 22pt;
+    color: rgb(32,156,119);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+  }
+  
+    /* Table of numbers */
+  td {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .list-title {
+  
+    font-size: 11pt; 
+  }
+  
+  td:hover {
+    color: rgb(125, 206, 101);
+  }
+
+   /* Container second row*/
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+  }
+  
+  .button-container > div {
+    background-color: #ffffff;
+    height: 63px ;
+    width: 57px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 18px;
+  }
+
+   /* Properties of the RESET cell */
+  .reset {
+    color:rgb(32, 156, 119);
+    font-size: 18px;
+    background-color: white;
+    height: 63px ;
+    width: 57px;
+    border-style : none;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default
+  }
+  
+  .reset:hover{
+    color: rgb(125, 206, 101);
+  }
+  
+   /* NEXT cell*/
+  .next {
+    color:rgb(32, 156, 119);
+    font-size: 18px;
+    height: 63px ;
+    width: 57px;
+    border-style: none;
+    margin: 10px;
+    display:flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: default ;
+    
+  }
+
+  .next:hover {
+    color: rgb(125, 206, 101);  
+  }
+  
+   /* Properties of the SCORE cell*/
+  .score {
+    color: rgb(32, 156, 119) ;
+    font-size: 18px;
+    height: 63px ;
+    width: 57px;
+    margin: 10px;
+    border-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    background-color: white;
+  }
+  
+ .score:hover {
+   color: rgb(125, 206, 101);  
+ }
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
